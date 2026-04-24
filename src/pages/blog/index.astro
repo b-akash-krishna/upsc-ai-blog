@@ -1,0 +1,17 @@
+---
+const posts = await Astro.glob('./*.md');
+posts.sort((a,b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
+---
+<html>
+<head><title>UPSC with AI — Blog</title></head>
+<body>
+<h1>UPSC with AI</h1>
+<p>AI strategies for UPSC Mains answer writing</p>
+{posts.map(post => (
+  <div>
+    <a href={post.url}>{post.frontmatter.title}</a>
+    <p>{post.frontmatter.description}</p>
+  </div>
+))}
+</body>
+</html>
