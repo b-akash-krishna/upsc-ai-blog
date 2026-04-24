@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: Best Free AI Tools for UPSC Mains Preparation in 2026
 description: A practical guide to the best free AI tools for UPSC 2026 — for answer writing practice, current affairs, note-making, and revision.
 date: 2026-04-24

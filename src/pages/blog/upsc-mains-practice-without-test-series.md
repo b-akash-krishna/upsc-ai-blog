@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: How to Practice UPSC Mains Without a Test Series (Using AI)
 description: Can't afford a UPSC test series? Here's how to build your own AI-powered practice system that gives better feedback than most paid programs.
 date: 2026-04-24

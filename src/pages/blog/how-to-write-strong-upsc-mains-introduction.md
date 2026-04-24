@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: How to Write a Strong UPSC Mains Introduction (With AI Practice Method)
 description: A weak introduction costs you marks before you've written a word. Learn how to write powerful UPSC Mains intros using AI feedback and proven structures.
 date: 2026-04-24

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: How to Generate Model Answers Using ChatGPT for UPSC Mains
 description: Learn how to use ChatGPT to generate UPSC-standard model answers for GS1, GS2, GS3, and GS4 — and how to use them without becoming dependent on AI.
 date: 2026-04-24

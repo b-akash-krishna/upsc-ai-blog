@@ -1,15 +1,112 @@
 ---
+import Layout from '../layouts/Layout.astro';
+
+const postFiles = import.meta.glob('./blog/*.md', { eager: true });
+const posts = Object.entries(postFiles).map(([path, mod]: [string, any]) => ({
+  url: path.replace('./blog/', '/blog/').replace('.md', ''),
+  frontmatter: mod.frontmatter,
+})).sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()).slice(0, 3);
 ---
-<html>
-<head>
-  <title>UPSC with AI — AI Tools for Mains Answer Writing</title>
-  <meta name="description" content="Free AI prompts and strategies for UPSC Mains answer writing. GS1, GS2, GS3, GS4 covered."/>
-</head>
-<body>
-  <h1>UPSC with AI</h1>
-  <p>Free AI strategies for UPSC Mains aspirants</p>
-  <a href="/blog">Read Articles</a>
-  <br/>
-  <a href="https://upscwithai.gumroad.com/l/tltsuj">Get 50 AI Prompts — ₹199</a>
-</body>
-</html>
+<Layout title="UPSC with AI — AI Tools for Mains Answer Writing">
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Free AI Resources for UPSC 2026
+        </div>
+        <h1>Write Better UPSC Answers with <em>AI</em></h1>
+        <p>Practical AI strategies, prompts, and frameworks for UPSC Mains aspirants. No fluff — just techniques that work.</p>
+        <div class="hero-actions">
+          <a href="/blog" class="btn-primary">Read Articles →</a>
+          <a href="https://upscwithai.gumroad.com/l/tltsuj" class="btn-gold" target="_blank" rel="noopener">Get 50 AI Prompts ₹199</a>
+        </div>
+
+        <div class="stats-row">
+          <div class="stat-item">
+            <div class="stat-num">50+</div>
+            <div class="stat-label">Curated AI Prompts</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">GS 1–4</div>
+            <div class="stat-label">All Papers Covered</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">Free</div>
+            <div class="stat-label">Blog Articles</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div style="position: relative; display: inline-block;">
+          <div class="visual-card">
+            <div class="vc-icon">🎯</div>
+            <div class="vc-title">AI Answer Evaluator</div>
+            <div class="vc-sub">Instant feedback on structure, dimensions & language</div>
+            <div class="vc-chips">
+              <span class="vc-chip">GS1</span>
+              <span class="vc-chip">GS2</span>
+              <span class="vc-chip">GS3</span>
+              <span class="vc-chip">GS4 Ethics</span>
+            </div>
+            <div class="vc-bar-wrap">
+              <div class="vc-bar-label"><span>Answer Quality</span><span>+40%</span></div>
+              <div class="vc-bar"><div class="vc-bar-fill" style="width:78%"></div></div>
+              <div class="vc-bar-label"><span>Speed</span><span>5x faster</span></div>
+              <div class="vc-bar"><div class="vc-bar-fill" style="width:92%; background: linear-gradient(90deg, #0e7c7b, #4ecdc4);"></div></div>
+            </div>
+          </div>
+          <div class="visual-float-1">✅ Feedback in seconds</div>
+          <div class="visual-float-2">📈 Score improvement</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ── Featured Articles ── -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label fade-up">Latest Articles</span>
+        <h2 class="section-title fade-up">Learn. Apply. Improve.</h2>
+        <p class="section-sub fade-up">Practical guides on using AI for every aspect of UPSC Mains preparation.</p>
+      </div>
+      <div class="articles-grid">
+        {posts.map((post, i) => (
+          <a href={post.url} class="article-card fade-up">
+            <span class="card-tag">UPSC AI</span>
+            <div class="card-title">{post.frontmatter.title}</div>
+            <div class="card-desc">{post.frontmatter.description}</div>
+            <div class="card-footer">
+              <span class="card-date">{new Date(post.frontmatter.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+              <span class="card-arrow">→</span>
+            </div>
+          </a>
+        ))}
+      </div>
+      <div style="text-align:center; margin-top:2.5rem;">
+        <a href="/blog" class="btn-outline">View All Articles →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA Banner ── -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="cta-banner fade-up">
+        <div class="price-pill">₹199 One-Time</div>
+        <h2>50 Proven AI Prompts for UPSC Mains</h2>
+        <p>Structured prompts for GS1–GS4, ethics answers, answer evaluation, dimension expansion, and more.</p>
+        <a href="https://upscwithai.gumroad.com/l/tltsuj" class="btn-gold" target="_blank" rel="noopener">Download Now →</a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: Missing Dimensions in UPSC Answers — How AI Finds What You Missed
 description: Most UPSC answers score low because of missing dimensions. Learn how AI can instantly identify gaps in your GS1, GS2, GS3, and GS4 answers.
 date: 2026-04-24

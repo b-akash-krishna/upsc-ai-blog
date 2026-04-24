@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: Best AI Prompts for GS4 Ethics Answers in UPSC Mains 2026
 description: Struggling with GS4 Ethics answers? These AI prompts help you add thinkers, frameworks, and personal examples to score 120+ in UPSC Ethics paper.
 date: 2026-04-24

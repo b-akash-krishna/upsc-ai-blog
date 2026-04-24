@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: AI vs Coaching Feedback for UPSC Answer Writing — An Honest Comparison
 description: Is AI feedback good enough for UPSC Mains answer writing, or do you still need a coaching mentor? An honest, practical comparison for 2026 aspirants.
 date: 2026-04-24

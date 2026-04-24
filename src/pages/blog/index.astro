@@ -1,21 +1,51 @@
 ---
+import Layout from '../../layouts/Layout.astro';
+
 const postFiles = import.meta.glob('./*.md', { eager: true });
-const posts = Object.entries(postFiles).map(([path, mod]) => ({
+const posts = Object.entries(postFiles).map(([path, mod]: [string, any]) => ({
   url: path.replace('./', '/blog/').replace('.md', ''),
-  frontmatter: (mod as any).frontmatter,
-}));
-posts.sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
+  frontmatter: mod.frontmatter,
+})).sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
 ---
-<html>
-<head><title>UPSC with AI — Blog</title></head>
-<body>
-<h1>UPSC with AI</h1>
-<p>AI strategies for UPSC Mains answer writing</p>
-{posts.map(post => (
-  <div>
-    <a href={post.url}>{post.frontmatter.title}</a>
-    <p>{post.frontmatter.description}</p>
-  </div>
-))}
-</body>
-</html>
+<Layout title="Blog — UPSC with AI" description="AI strategies and prompts for UPSC Mains answer writing. Free articles covering GS1 to GS4.">
+
+  <section class="post-hero" style="padding-bottom: 2.5rem;">
+    <div class="container">
+      <span class="section-label">All Articles</span>
+      <h1 class="section-title" style="font-size: clamp(2rem, 4vw, 2.8rem); margin-top: 0.3rem;">AI Strategies for UPSC Mains</h1>
+      <p class="section-sub" style="margin-top: 0.5rem;">{posts.length} articles on using AI to write better answers, faster.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container">
+      <div class="articles-grid">
+        {posts.map((post) => (
+          <a href={post.url} class="article-card fade-up">
+            <span class="card-tag">UPSC AI</span>
+            <div class="card-title">{post.frontmatter.title}</div>
+            <div class="card-desc">{post.frontmatter.description}</div>
+            <div class="card-footer">
+              <span class="card-date">
+                {new Date(post.frontmatter.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
+              </span>
+              <span class="card-arrow">→</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="cta-banner fade-up">
+        <div class="price-pill">₹199 One-Time</div>
+        <h2>50 AI Prompts for UPSC Mains</h2>
+        <p>Structured prompts for every GS paper — answer evaluation, dimension expansion, ethics frameworks and more.</p>
+        <a href="https://upscwithai.gumroad.com/l/tltsuj" class="btn-gold" target="_blank" rel="noopener">Download Now →</a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

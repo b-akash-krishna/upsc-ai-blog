@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: How to Improve UPSC Answer Writing in 30 Days Using AI
 description: A practical 30-day plan to systematically improve your UPSC Mains answer writing using AI — with specific prompts for each week.
 date: 2026-04-24

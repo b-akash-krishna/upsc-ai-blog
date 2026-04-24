@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: How to Use AI to Evaluate Your UPSC Mains Answers (Step-by-Step Guide)
 description: Learn how to use AI tools like ChatGPT to evaluate your UPSC Mains answers, find missing dimensions, and improve your score fast.
 date: 2026-04-24

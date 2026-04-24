@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPost.astro
 title: UPSC Answer Writing Mistakes and How AI Fixes Them
 description: The most common UPSC Mains answer writing mistakes — and exact AI prompts to diagnose and fix each one fast.
 date: 2026-04-24
