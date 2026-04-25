@@ -54,4 +54,4 @@ If you've already written an answer and the introduction feels weak:
 
 This gives you immediate alternatives to compare and learn from.
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**

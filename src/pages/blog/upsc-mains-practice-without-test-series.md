@@ -38,4 +38,4 @@ At the end of each month, write the same 3 questions you wrote in Week 1. Compar
 
 The only thing a test series has over AI is the experience of writing on paper under exam conditions. Replicate that yourself by printing questions and writing by hand for your monthly mock.
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**

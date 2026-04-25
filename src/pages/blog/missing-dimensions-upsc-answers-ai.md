@@ -40,4 +40,4 @@ After a week of using the AI checker, create a personal checklist of your 3 most
 
 This two-step process — AI checker + personal checklist — is more effective than any coaching feedback session.
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**

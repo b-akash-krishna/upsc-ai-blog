@@ -53,7 +53,7 @@ This is something most aspirants never do — and it's what separates 130-mark a
 
 The UPSC examiner reads thousands of answers. What makes yours stand out is not just content — it's how well-structured and multi-dimensional it is. AI evaluates both simultaneously, something even most coaching teachers struggle to do efficiently for individual students.
 
-A structured set of AI prompts built specifically for UPSC answer evaluation — covering GS1 through GS4 — can make this process even faster. The prompts at [upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj) are designed exactly for this kind of systematic self-evaluation, with separate templates for different GS papers.
+A structured set of AI prompts built specifically for UPSC answer evaluation — covering GS1 through GS4 — can make this process even faster. The prompts at [upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts) are designed exactly for this kind of systematic self-evaluation, with separate templates for different GS papers.
 
 ## Final Thoughts
 
@@ -61,4 +61,4 @@ AI won't clear UPSC for you. But it can compress the feedback loop from weeks to
 
 Stop waiting for someone to tell you what's wrong with your answers. Ask AI. Ask it every day.
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**

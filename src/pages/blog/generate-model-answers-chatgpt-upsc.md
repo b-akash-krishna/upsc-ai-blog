@@ -35,4 +35,4 @@ Use model answers for *learning*, not *substitution*. The goal is to internalise
 
 Rule: For every model answer you study, write the next similar question entirely from memory before checking AI again.
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**

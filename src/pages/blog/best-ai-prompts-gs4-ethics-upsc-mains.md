@@ -46,6 +46,6 @@ Most aspirants write only the first point. The rest gets ignored. That's where A
 
 The best GS4 scorers don't just know Ethics theory — they've *internalized* it and can apply it under pressure. AI helps you practice that application daily, without needing a dedicated Ethics mentor.
 
-These prompts and more are packaged in a ready-to-use format at [upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj) — specifically designed for UPSC GS4.
+These prompts and more are packaged in a ready-to-use format at [upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts) — specifically designed for UPSC GS4.
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**

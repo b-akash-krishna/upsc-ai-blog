@@ -42,4 +42,4 @@ After evaluating thousands of UPSC practice answers, certain mistakes appear aga
 **AI Fix:**
 > *"The directive word in this question is [analyse/critically examine/comment/evaluate]. Does my answer correctly respond to this directive? Where does it fall short? Question: [paste]. Answer: [paste]"*
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**

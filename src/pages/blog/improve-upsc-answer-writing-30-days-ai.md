@@ -41,4 +41,4 @@ By Day 7: Write down your top 3 recurring weaknesses. These become your focus fo
 
 Most aspirants who do this consistently report noticeably stronger introductions, answers that feel "complete," and a clearer sense of what UPSC rewards. The improvement is real, measurable, and compounds over the next 3–6 months.
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**

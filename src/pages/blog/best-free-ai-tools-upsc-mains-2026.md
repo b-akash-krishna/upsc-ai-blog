@@ -50,4 +50,4 @@ Upload your handwritten notes or NCERTs — ask questions, get quiz questions, g
 
 The key to making all these tools work is prompt quality. Structured, UPSC-specific prompts unlock the real potential.
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**

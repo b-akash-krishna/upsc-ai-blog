@@ -39,4 +39,4 @@ The optimal approach: AI for 90% of your practice. Human feedback 1–2 times a 
 
 This combination costs a fraction of full coaching and produces better results for most self-motivated aspirants.
 
-**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/tltsuj](https://upscwithai.gumroad.com/l/tltsuj)**
+**Get all 50 prompts here → [https://upscwithai.gumroad.com/l/50-upsc-ai-prompts](https://upscwithai.gumroad.com/l/50-upsc-ai-prompts)**
