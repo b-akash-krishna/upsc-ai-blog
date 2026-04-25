@@ -427,8 +427,9 @@ body::before {
   background: var(--navy); border-radius: var(--radius);
   text-align: center; color: #fff;
 }
-.post-cta h3 { font-family: var(--font-head); font-size: 1.2rem; margin-bottom: 0.5rem; }
-.post-cta p { color: rgba(255,255,255,0.65); font-size: 0.9rem; margin-bottom: 1.2rem; }
+.post-cta h3 { font-family: var(--font-head); font-size: 1.3rem; margin-bottom: 0.5rem; color: #fff; }
+.post-cta p { color: rgba(255,255,255,0.75); font-size: 0.95rem; margin-bottom: 1.5rem; }
+.post-cta a.btn-gold { color: #fff !important; text-decoration: none !important; }
 
 /* ── Footer ── */
 .footer { border-top: 1px solid var(--border); padding: 2.5rem 0; position: relative; z-index: 1; background: var(--bg); }
